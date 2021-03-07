@@ -31,7 +31,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」\n\n*eits kamu belom daftar di PamPam Bot daftar dulu untuk menggunakan bot cara daftar ${prefix}daftar nama|umur*\n*contoh= ${prefix}daftar Fico|15*`
+	return`「 BELUM DAFTAR 」\n\n*eits kamu belom daftar di PamPam Bot daftar dulu untuk menggunakan bot cara daftar ${prefix}daftar nama|umur*\n*contoh= ${prefix}daftar Fico|15*`
 }
 
 exports.rediregis = () => {
@@ -135,7 +135,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Level* : ${getLevelingLevel(sender)}
 ╠☞ *User register* : ${_registered.length}
-╰════─⊱  ⸨ *TPampam - Bot* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *Pampam - Bot* ⸩  ⊰─════╯
 
            Rules - Simple
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
@@ -294,7 +294,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *Pampam*
 ╠☞ *Reyna*
 ╠☞ *Damar*
-╠☞ *FEBRI*
+╠☞ *FICO*
 ╠☞ *Taufik - Kun*
 ╰════─⊱  ⸨ *MiKako⚔️* ⸩  ⊰─════╯
 `
