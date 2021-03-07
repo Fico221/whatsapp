@@ -1,8 +1,8 @@
 /*<=====[CommandDetected]=====>*/
 /*<=====[loadSyncError507]====>*/
 /*<=====[FileSyncodeError]====>*/
-/*<=====[GetCodeTaufik-Kun]===>*/
-/*<=====[UserID[MiKako]✓]=====>*/
+/*<=====[GetCodeFico-shop]===>*/
+/*<=====[UserID[Fico]✓]=====>*/
 /*<=====[StartProject✓]=====>*/
 
 const {
@@ -54,17 +54,17 @@ const devcityapi = 'onlyonedeveloper'
 const TechApi = 'B8r68c-6gwmq1-af4vtS-if1zgD-jni01B'
 const vcard = 'BEGIN:VCARD\n'  // Jangan di ubah biar ga error
             + 'VERSION:3.0\n'  // Jangan di ubah biar ga error
-            + 'FN:MiKako\n'  // Ganti jadi namamu
-            + 'ORG: Pengembang Taufik-Kun;\n'  // Ganti jadi namamu/Botmu
-            + 'TEL;type=CELL;type=VOICE;waid=6289675651966:+62 896-7565-1966\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
+            + 'FN:Fico Shop\n'  // Ganti jadi namamu
+            + 'ORG: Pengembang Fico Shop;\n'  // Ganti jadi namamu/Botmu
+            + 'TEL;type=CELL;type=VOICE;waid=6285864236900:+62 858-6423-6900\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
             + 'END:VCARD' // jangan di ubah
 prefix = '#'
 blocked = []   
-limitawal = '50' //terserah ganti/gk
+limitawal = '100' //terserah ganti/gk
 cr = '*Jangan digunakan Via PC co*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6289675651966@s.whatsapp.net","6285807479634@s.whatsapp.net"]  //ganti menjadi nomormu
+const ownerNumber = ["6285864236900@s.whatsapp.net","6285864236900@s.whatsapp.net"]  //ganti menjadi nomormu
 /************************************/
 
        
@@ -652,7 +652,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'bot':
 				case 'Bot':
 					bot = body.slice(1)
-					const on =['Yoo👋','Hai, nani desuka? :)','What?','Bot on, ketik #menu untuk melihat menu Botol-LoL','apa Tod?']
+					const on =['Yoo👋','Hai, nani desuka? :)','What?','Bot on, ketik #menu untuk melihat menu Pampam-Bot','apa Tod?']
 					const Bot = on[Math.floor(Math.random() * on.length)]
 					client.sendMessage(from, Bot, text, { quoted: mek })
 					await limitAdd(sender)
@@ -2140,7 +2140,7 @@ client.on('group-participants-update', async (anu) => {
 					case 'ingfokan':
 					me = client.user
 					uptime = process.uptime()
-					teks = `*Nama bot* : ${me.name}\n*OWNER* : *MiKako*\n*AUTHOR* : Taufik-Kun\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}`
+					teks = `*Nama bot* : ${me.name}\n*OWNER* : *Fico*\n*AUTHOR* : Fico-Shop\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
