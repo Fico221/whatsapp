@@ -1,7 +1,7 @@
 /*<=====[CommandDetected]=====>*/
 /*<=====[loadSyncError507]====>*/
 /*<=====[FileSyncodeError]====>*/
-/*<=====[GetCodeFico-shop]===>*/
+/*<=====[GetCodeFico-Rizqulah-Ramadhan]===>*/
 /*<=====[UserID[Fico]✓]=====>*/
 /*<=====[StartProject✓]=====>*/
 
@@ -54,9 +54,9 @@ const devcityapi = 'onlyonedeveloper'
 const TechApi = 'B8r68c-6gwmq1-af4vtS-if1zgD-jni01B'
 const vcard = 'BEGIN:VCARD\n'  // Jangan di ubah biar ga error
             + 'VERSION:3.0\n'  // Jangan di ubah biar ga error
-            + 'FN:Fico Shop\n'  // Ganti jadi namamu
-            + 'ORG: Pengembang Fico Shop;\n'  // Ganti jadi namamu/Botmu
-            + 'TEL;type=CELL;type=VOICE;waid=6285864236900:+62 858-6423-6900\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
+            + 'FN:Fico Rizqulah Ramadhan\n'  // Ganti jadi namamu
+            + 'ORG: Pengembang Fico Rizqulah Ramadhan;\n'  // Ganti jadi namamu/Botmu
+            + 'TEL;type=CELL;type=VOICE;waid=6285161006914:+62 851-6100-6914\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
             + 'END:VCARD' // jangan di ubah
 prefix = '#'
 blocked = []   
@@ -64,7 +64,7 @@ limitawal = '100' //terserah ganti/gk
 cr = '*Jangan digunakan Via PC co*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6285864236900@s.whatsapp.net","6285864236900@s.whatsapp.net"]  //ganti menjadi nomormu
+const ownerNumber = ["6285161006914@s.whatsapp.net","6285161006914@s.whatsapp.net"]  //ganti menjadi nomormu
 /************************************/
 
        
